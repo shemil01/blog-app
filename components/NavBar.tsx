@@ -14,7 +14,7 @@ import {
 const NavBar = () => {
   return (
     <nav className="h-16 bg-background/60 sticky top-0 border-b px-8 backdrop-blur flex items-center justify-between ">
-      <div className="font-bold"><Link href={'/'}>blogapp</Link></div>
+      <div className="font-bold"><Link href={'/'}>TheDailyBiz</Link></div>
       <ul className="hidden md:flex w-full items-center justify-end space-x-4">
         <li>
           <Link href={"/"}>Home</Link>
