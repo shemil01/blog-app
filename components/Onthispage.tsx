@@ -1,6 +1,7 @@
 "use client";
 
 
+import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
 
 interface LinkType {
@@ -8,7 +9,7 @@ interface LinkType {
   text: string;
 }
 
-const Onthispage = ({ htmlContent }: { htmlContent: string }) => {
+const Onthispage = ({ htmlContent ,className}: { htmlContent: string,className:string }) => {
   const [links, setLinks] = useState<null | LinkType[]>(null);
 
   useEffect(() => {
@@ -30,13 +31,15 @@ const Onthispage = ({ htmlContent }: { htmlContent: string }) => {
   }, [htmlContent]);
 
   return (
-  <div className="hidden md:block">
-    <div className="sticky">
+  <div className={cn('hidden md:block',className)}>
+    <div className="sticky top-20">
         <h2>On this page</h2>
-        <ul>
+        <ul className="not-prose text-xs ">
             {links && links.map((link)=>{
-                return <li key={link.id}>
-                    <a href={`#${link.id}`}>{link.text}</a>
+                return <li key={link.id} className="pt-1">
+                    <a href={`#${link.id}`}>{link.text.slice(0,50)}
+                        {(link.text.length >50)?"...":''}
+                    </a>
                 </li>
             })}
         </ul>
