@@ -3,15 +3,15 @@ import Sampleblogs from "@/config/sampleBlogs";
 import { buttonVariants } from "@/components/ui/button"
 
 // Define the type for blog props
-interface BlogType {
-  id: number;
-  title: string;
-  description: string;
-  author: string;
-  date: string;
-  imageUrl: string;
-  slug: string;
-}
+// interface BlogType {
+//   id: number;
+//   title: string;
+//   description: string;
+//   author: string;
+//   date: string;
+//   imageUrl: string;
+//   slug: string;
+// }
 
 const BlogList = () => {
   return (

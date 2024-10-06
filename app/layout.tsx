@@ -10,10 +10,10 @@ import NavBar from "@/components/NavBar";
 //   subsets: ['latin'],
 //   variable: '--font-inter',  // <--------- 👈
 // })
-const fontSans = FontSans({
-  subsets: ["latin"],
-  variable: "--font-sans",
-});
+// const fontSans = FontSans({
+//   subsets: ["latin"],
+//   variable: "--font-sans",
+// });
 
 export const metadata: Metadata = {
   title: SiteConfig.title,

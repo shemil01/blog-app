@@ -17,7 +17,7 @@ const Onthispage = ({ htmlContent }: { htmlContent: string }) => {
     const headings = temp.querySelectorAll("h2,h3");
     const generatedLinks: LinkType[] = [];
 
-    headings.forEach((heading, index) => {
+    headings.forEach((heading) => {
       const id = heading.id || `heading-$[index]`;
       heading.id = id;
 
