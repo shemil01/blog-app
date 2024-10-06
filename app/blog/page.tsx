@@ -1,5 +1,4 @@
 import React from "react";
-import Sampleblogs from "@/config/sampleBlogs";
 import { buttonVariants } from "@/components/ui/button";
 import fs, { readFileSync } from "fs";
 import matter from "gray-matter";

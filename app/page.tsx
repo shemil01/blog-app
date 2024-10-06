@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main>
@@ -50,10 +52,11 @@ export default function Home() {
           </div>
         </div>{" "}
         <div className="w-full mt-4 lg:mt-0 lg:w-1/2">
-          <img
+          <Image
             src="https://www.creative-tim.com/twcomponents/svg/website-designer-bro-purple.svg"
             alt="tailwind css components"
-            className="w-full h-full max-w-md mx-auto"
+            width={500} // You can define specific width and height for better optimization
+            height={500}
           />
         </div>
       </section>
