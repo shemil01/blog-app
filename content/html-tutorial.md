@@ -2,7 +2,7 @@
 title: HTML Tutorial
 slug: html-tutorial
 description: Comprehensive guide on learning HTML, from the basics of structuring web pages to advanced elements and semantics.
-imageURl: https://images.pexels.com/photos/19387205/pexels-photo-19387205/free-photo-of-laptop-by-monitor-on-desk.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+imageURl: "https://verpex.com/assets/uploads/images/blog/Basic-HTML-Codes-for-Websites.webp?v=1691760654"
 ---
 
 # HTML Tutorial: A Comprehensive Guide

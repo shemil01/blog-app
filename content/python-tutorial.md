@@ -2,6 +2,8 @@
 title: Python Tutorial
 slug: python-tutorial
 description: Comprehensive guide on learning Python from basics to advanced topics.
+
+imageUrl : "https://blog.eduonix.com/wp-content/uploads/2018/09/Scientific-Python-Scipy-696x500.jpg"
 ---
 
 # Python Tutorial: A Comprehensive Guide

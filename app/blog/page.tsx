@@ -21,6 +21,7 @@ const blogs: BlogType[] = dirContent.map((file) => {
     title: data.title,
     description: data.description,
     slug: data.slug,
+    imageUrl: data.imageUrl, 
   };
   return value;
 });

@@ -2,6 +2,7 @@
 title: Java Programming Tutorial
 slug: java-programming-tutorial
 description: Comprehensive guide on learning Java programming from basics to advanced topics.
+imageUrl: "https://media.licdn.com/dms/image/D4D12AQEj_skZvxBLHg/article-cover_image-shrink_600_2000/0/1697271137370?e=2147483647&v=beta&t=JdRUL0miChTF6Mx0iaUgKDXWVuBkW-aojSt-Zy_HuNQ"
 ---
 
 # Java Programming Tutorial: A Comprehensive Guide

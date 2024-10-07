@@ -2,6 +2,7 @@
 title: JavaScript Tutorial
 slug: js-tutorial
 description: Comprehensive guide on learning JavaScript from basics to advanced topics.  
+imageUrl : "https://bairesdev.mo.cloudinary.net/blog/2023/08/What-Is-JavaScript-Used-For.jpg?tx=w_1920,q_auto"
 ---
 
 

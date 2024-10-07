@@ -2,7 +2,7 @@
 title: C Programming Tutorial
 slug: c-programming-tutorial
 description: Comprehensive guide on learning C programming from basics to advanced topics.
-imageUrl: /images/coding.jpeg
+imageUrl: "https://contenthub-static.grammarly.com/blog/wp-content/uploads/2017/11/how-to-write-a-blog-post.jpeg"
 ---
 
 # C Programming Tutorial: A Comprehensive Guide
