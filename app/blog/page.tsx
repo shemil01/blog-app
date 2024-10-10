@@ -3,12 +3,12 @@ import { buttonVariants } from "@/components/ui/button";
 import fs, { readFileSync } from "fs";
 import matter from "gray-matter";
 import Link from "next/link";
+import Image from "next/image";
 
-// // Define the type for blog props
+// Define the type for blog props
 interface BlogType {
   title: string;
   description: string;
-
   imageUrl?: string;
   slug: string;
 }
@@ -21,7 +21,7 @@ const blogs: BlogType[] = dirContent.map((file) => {
     title: data.title,
     description: data.description,
     slug: data.slug,
-    imageUrl: data.imageUrl, 
+    imageUrl: data.imageUrl,
   };
   return value;
 });
@@ -32,14 +32,16 @@ const BlogList = () => {
       <div className="max-w-7xl mx-auto">
         <h1 className="text-3xl font-bold text-center mb-8">Latest Blogs</h1>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {blogs.map((blog: BlogType,index:number) => (
+          {blogs.map((blog: BlogType, index: number) => (
             <div
               key={index}
               className="shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300"
             >
-              <img
-                src={blog.imageUrl}
+              <Image
+                src={blog.imageUrl!} // Use the imageUrl from your content
                 alt={blog.title}
+                width={500} // Set width for the Image component
+                height={300} // Set height for the Image component
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
@@ -51,7 +53,6 @@ const BlogList = () => {
                 >
                   Read More..
                 </Link>
-               
               </div>
             </div>
           ))}

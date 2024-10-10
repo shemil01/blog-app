@@ -11,9 +11,9 @@ const Contact = () => {
             width="800"
             height="600"
             className="absolute inset-0 w-full"
-            allowfullscreen=""
+            allowFullScreen
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
           <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
@@ -26,8 +26,8 @@ const Contact = () => {
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-gray-500 leading-relaxed">
-              shemilmk1033@gmail.com
+              <a href="mailto:shemilmk1033@gmail.com" className="text-gray-500 leading-relaxed">
+                shemilmk1033@gmail.com
               </a>
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                 PHONE
@@ -37,10 +37,7 @@ const Contact = () => {
           </div>
         </div>
 
-
         <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-        
-          
           <div className="relative mb-4">
             <label htmlFor="email" className="leading-7 text-sm text-gray-600">
               Email
@@ -53,10 +50,7 @@ const Contact = () => {
             />
           </div>
           <div className="relative mb-4">
-            <label
-              htmlFor="message"
-              className="leading-7 text-sm text-gray-600"
-            >
+            <label htmlFor="message" className="leading-7 text-sm text-gray-600">
               Message
             </label>
             <textarea
@@ -67,8 +61,7 @@ const Contact = () => {
           </div>
           <Button>Send Message</Button>
           <p className="text-xs text-gray-500 mt-3">
-            Your privacy is important to us. We won't share your details with
-            anyone.
+            Your privacy is important to us. We won't share your details with anyone.
           </p>
         </div>
       </div>
