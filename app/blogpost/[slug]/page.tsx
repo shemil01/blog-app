@@ -48,7 +48,7 @@ export default async function BlogPost({
           <div className="px-16">
             <h1>{data.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: htmlContent }}></div>
-            {/* {params.slug} */}
+           
           </div>
           <Onthispage className="text-sm w-[20%]" htmlContent={htmlContent} />
         </div>

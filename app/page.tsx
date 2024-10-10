@@ -66,7 +66,7 @@ export default function Home() {
           <h2 className="text-4xl pb-8 mb-4 font-bold  text-center">
             About Our Services
           </h2>
-          <div className="flex flex-wrap -m-4">
+          <div className="flex flex-wrap m-4">
             <div className="p-4 lg:w-1/3">
               <div className="h-full bg-gray-200 dark:bg-gray-900 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative shadow-lg">
                 <h2 className="tracking-widest text-xs title-font font-medium  mb-1">
